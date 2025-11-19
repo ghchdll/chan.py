@@ -8,3 +8,15 @@ config.yaml
 OpenConfig.yaml
 gotify_push.py
 cos_config.yaml
+
+# Added common ignores
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+.mypy_cache/
+.pytest_cache/
+*.egg-info
+build/
+dist/
